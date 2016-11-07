@@ -10,24 +10,218 @@
     <atom:link href="http://pleurotus-eryngii.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>about</title>
-      <link>http://pleurotus-eryngii.github.io/about/</link>
-      <pubDate>Thu, 03 Nov 2016 09:17:20 +0900</pubDate>
+      <title>Gallery</title>
+      <link>http://pleurotus-eryngii.github.io/gallery/</link>
+      <pubDate>Fri, 04 Nov 2016 09:17:20 +0900</pubDate>
       
-      <guid>http://pleurotus-eryngii.github.io/about/</guid>
-      <description>&lt;p&gt;##最初の投稿
-これはテスト投稿です。&lt;/p&gt;
+      <guid>http://pleurotus-eryngii.github.io/gallery/</guid>
+      <description>
+
+&lt;h1 id=&#34;illustrations&#34;&gt;Illustrations&lt;/h1&gt;
+
+&lt;p&gt;&lt;div id=&#34;stage&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;f1&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;b1&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;f2&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;b2&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;f3&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;b3&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;f4&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;b4&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;f5&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;b5&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;f6&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;b6&#34; name=&#34;sld&#34;&gt;
+    &lt;div id=&#34;photo1&#34; class=&#34;photo&#34;&gt;&lt;img class=&#34;pimage&#34; src=&#34;images/p1.png&#34;&gt;
+        &lt;label for=&#34;b1&#34;&gt;&lt;span class=&#34;left_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;label for=&#34;f1&#34;&gt;&lt;span class=&#34;right_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;
+    &lt;div id=&#34;photo2&#34; class=&#34;photo&#34;&gt;&lt;img class=&#34;pimage&#34; src=&#34;images/p2.png&#34;&gt;
+        &lt;label for=&#34;b2&#34;&gt;&lt;span class=&#34;left_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;label for=&#34;f2&#34;&gt;&lt;span class=&#34;right_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;
+    &lt;div id=&#34;photo3&#34; class=&#34;photo&#34;&gt;&lt;img class=&#34;pimage&#34; src=&#34;images/p3.png&#34;&gt;
+        &lt;label for=&#34;b3&#34;&gt;&lt;span class=&#34;left_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;label for=&#34;f3&#34;&gt;&lt;span class=&#34;right_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;
+    &lt;div id=&#34;photo4&#34; class=&#34;photo&#34;&gt;&lt;img class=&#34;pimage&#34; src=&#34;images/p4.png&#34;&gt;
+        &lt;label for=&#34;b4&#34;&gt;&lt;span class=&#34;left_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;label for=&#34;f4&#34;&gt;&lt;span class=&#34;right_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;
+    &lt;div id=&#34;photo5&#34; class=&#34;photo&#34;&gt;&lt;img class=&#34;pimage&#34; src=&#34;images/p5.png&#34;&gt;
+        &lt;label for=&#34;b5&#34;&gt;&lt;span class=&#34;left_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;label for=&#34;f5&#34;&gt;&lt;span class=&#34;right_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;
+    &lt;div id=&#34;photo6&#34; class=&#34;photo&#34;&gt;&lt;img class=&#34;pimage&#34; src=&#34;images/p6.png&#34;&gt;
+        &lt;label for=&#34;b6&#34;&gt;&lt;span class=&#34;left_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;label for=&#34;f6&#34;&gt;&lt;span class=&#34;right_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;
+&lt;/div&gt;
+&amp;nbsp;&lt;/br&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;description&#34;&gt;Description&lt;/h1&gt;
+
+&lt;p&gt;作品についての解説です。
+&amp;nbsp;&lt;/br&gt;
+&amp;nbsp;&lt;/br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;strong-結月ゆかり-enderio-strong&#34;&gt;&lt;strong&gt;結月ゆかり×EnderIO&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Twitterにて行った、寄せられたお題から絵を描く企画(現在も緩やかに進行中)の1枚目。まとまった時間があったため背景の描きこみもある程度してあり、現時点ではベストだろうか…
+題材はVOCALOIDの結月ゆかりさんと、Minecraftの大規模ModであるEnderIO。&lt;br /&gt;
+&amp;nbsp;&lt;/br&gt;
+&amp;nbsp;&lt;/br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;strong-シェオゴラス-skyrim-strong&#34;&gt;&lt;strong&gt;シェオゴラス(Skyrim)&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.bethsoft.com/&#34;&gt;Bethesda Softworks&lt;/a&gt;のゲーム「&lt;a href=&#34;http://www.elderscrolls.com/home/home.php&#34;&gt;The Elder Scrolls V: Skyrim&lt;/a&gt;」、及びThe Elder Scrollsシリーズに登場する狂気の
+デイドラの王子(神のようなもの)、シェオゴラスさん。Pixivに上がっているものは体のバランスに問題があったため、こちらはそれを修正したもの。企画で描いたものが多い中、これは普通に好きだから描いたイラスト。杖に地味に時間がかかっている.
+&amp;nbsp;&lt;/br&gt;
+&amp;nbsp;&lt;/br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;strong-数字-数学-strong&#34;&gt;&lt;strong&gt;数字(数学)&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;先述のお題企画の作品。描いた部分はそんなにないが、画像加工した&lt;a href=&#34;https://www.flickr.com/photos/chefranden/3182589327/&#34;&gt;紙テクスチャ&lt;/a&gt;などを使用した誤魔化しが効いており、ポスターとかには使えなくもない気がする。
+なお、背景の文章は&amp;rdquo;Dictionary of Greek and Roman Biography and Mythology&amp;rdquo;(ギリシャ・ローマの伝記と神話の辞典)による。&lt;br /&gt;
+&amp;nbsp;&lt;/br&gt;
+&amp;nbsp;&lt;/br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;strong-ナスターシャム-キャラクター-by-くらりしっど氏-strong&#34;&gt;&lt;strong&gt;ナスターシャム(キャラクター by くらりしっど氏)&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;くらりしっど氏(&lt;a href=&#34;https://twitter.com/ibuprofen1000&#34;&gt;Twitter&lt;/a&gt;)のオリジナルキャラクター「ナスターシャム」さんを描かせていただいたもの。細部の配色や効果に時間がかかったが、顔がうまく描けていない。ついでに言うとキャラクターの
+設定も特に活かせていなかった…&lt;br /&gt;
+&amp;nbsp;&lt;/br&gt;
+&amp;nbsp;&lt;/br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;strong-できるかな-strong&#34;&gt;&lt;strong&gt;できるかな&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;先述のお題企画より。お題は「ゴン太君」だったが、バランスの為ノッポさんにも急遽参加していただいた。やや影を強めにしてクールな感じが出せた気がする。なお、ノッポさんの左手から出ているものはイメージ。&lt;br /&gt;
+&amp;nbsp;&lt;/br&gt;
+&amp;nbsp;&lt;/br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;strong-曲イメージ-曲-by-king氏-strong&#34;&gt;&lt;strong&gt;曲イメージ(曲 by King氏)&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Twitterで行った、寄せられた楽曲のイメージを絵にする企画の中での(あくまでその中では)秀作で、お洒落さと西洋風味をもとに描いた。
+もとにした楽曲は提供者様(&lt;a href=&#34;https://twitter.com/qpwakaba&#34;&gt;Twitter&lt;/a&gt;)のオリジナル。
+この企画では全てモノクロで描くことにしていたため、誤魔化しやすいエアブラシが火を噴いている。エアブラシはいいぞ。&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>about</title>
+      <title>Gallery</title>
+      <link>http://pleurotus-eryngii.github.io/gallery/</link>
+      <pubDate>Fri, 04 Nov 2016 09:17:20 +0900</pubDate>
+      
+      <guid>http://pleurotus-eryngii.github.io/gallery/</guid>
+      <description>
+
+&lt;h1 id=&#34;illustrations&#34;&gt;Illustrations&lt;/h1&gt;
+
+&lt;p&gt;&lt;div id=&#34;stage&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;f1&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;b1&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;f2&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;b2&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;f3&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;b3&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;f4&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;b4&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;f5&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;b5&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;f6&#34; name=&#34;sld&#34;&gt;
+    &lt;input type=&#34;radio&#34; id=&#34;b6&#34; name=&#34;sld&#34;&gt;
+    &lt;div id=&#34;photo1&#34; class=&#34;photo&#34;&gt;&lt;img class=&#34;pimage&#34; src=&#34;images/p1.png&#34;&gt;
+        &lt;label for=&#34;b1&#34;&gt;&lt;span class=&#34;left_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;label for=&#34;f1&#34;&gt;&lt;span class=&#34;right_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;
+    &lt;div id=&#34;photo2&#34; class=&#34;photo&#34;&gt;&lt;img class=&#34;pimage&#34; src=&#34;images/p2.png&#34;&gt;
+        &lt;label for=&#34;b2&#34;&gt;&lt;span class=&#34;left_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;label for=&#34;f2&#34;&gt;&lt;span class=&#34;right_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;
+    &lt;div id=&#34;photo3&#34; class=&#34;photo&#34;&gt;&lt;img class=&#34;pimage&#34; src=&#34;images/p3.png&#34;&gt;
+        &lt;label for=&#34;b3&#34;&gt;&lt;span class=&#34;left_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;label for=&#34;f3&#34;&gt;&lt;span class=&#34;right_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;
+    &lt;div id=&#34;photo4&#34; class=&#34;photo&#34;&gt;&lt;img class=&#34;pimage&#34; src=&#34;images/p4.png&#34;&gt;
+        &lt;label for=&#34;b4&#34;&gt;&lt;span class=&#34;left_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;label for=&#34;f4&#34;&gt;&lt;span class=&#34;right_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;
+    &lt;div id=&#34;photo5&#34; class=&#34;photo&#34;&gt;&lt;img class=&#34;pimage&#34; src=&#34;images/p5.png&#34;&gt;
+        &lt;label for=&#34;b5&#34;&gt;&lt;span class=&#34;left_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;label for=&#34;f5&#34;&gt;&lt;span class=&#34;right_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;
+    &lt;div id=&#34;photo6&#34; class=&#34;photo&#34;&gt;&lt;img class=&#34;pimage&#34; src=&#34;images/p6.png&#34;&gt;
+        &lt;label for=&#34;b6&#34;&gt;&lt;span class=&#34;left_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;label for=&#34;f6&#34;&gt;&lt;span class=&#34;right_btn&#34;&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;
+&lt;/div&gt;
+&amp;nbsp;&lt;/br&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;description&#34;&gt;Description&lt;/h1&gt;
+
+&lt;p&gt;作品についての解説です。
+&amp;nbsp;&lt;/br&gt;
+&amp;nbsp;&lt;/br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;strong-結月ゆかり-enderio-strong&#34;&gt;&lt;strong&gt;結月ゆかり×EnderIO&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Twitterにて行った、寄せられたお題から絵を描く企画(現在も緩やかに進行中)の1枚目。まとまった時間があったため背景の描きこみもある程度してあり、現時点ではベストだろうか…
+題材はVOCALOIDの結月ゆかりさんと、Minecraftの大規模ModであるEnderIO。&lt;br /&gt;
+&amp;nbsp;&lt;/br&gt;
+&amp;nbsp;&lt;/br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;strong-シェオゴラス-skyrim-strong&#34;&gt;&lt;strong&gt;シェオゴラス(Skyrim)&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.bethsoft.com/&#34;&gt;Bethesda Softworks&lt;/a&gt;のゲーム「&lt;a href=&#34;http://www.elderscrolls.com/home/home.php&#34;&gt;The Elder Scrolls V: Skyrim&lt;/a&gt;」、及びThe Elder Scrollsシリーズに登場する狂気の
+デイドラの王子(神のようなもの)、シェオゴラスさん。Pixivに上がっているものは体のバランスに問題があったため、こちらはそれを修正したもの。企画で描いたものが多い中、これは普通に好きだから描いたイラスト。杖に地味に時間がかかっている.
+&amp;nbsp;&lt;/br&gt;
+&amp;nbsp;&lt;/br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;strong-数字-数学-strong&#34;&gt;&lt;strong&gt;数字(数学)&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;先述のお題企画の作品。描いた部分はそんなにないが、画像加工した&lt;a href=&#34;https://www.flickr.com/photos/chefranden/3182589327/&#34;&gt;紙テクスチャ&lt;/a&gt;などを使用した誤魔化しが効いており、ポスターとかには使えなくもない気がする。
+なお、背景の文章は&amp;rdquo;Dictionary of Greek and Roman Biography and Mythology&amp;rdquo;(ギリシャ・ローマの伝記と神話の辞典)による。&lt;br /&gt;
+&amp;nbsp;&lt;/br&gt;
+&amp;nbsp;&lt;/br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;strong-ナスターシャム-キャラクター-by-くらりしっど氏-strong&#34;&gt;&lt;strong&gt;ナスターシャム(キャラクター by くらりしっど氏)&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;くらりしっど氏(&lt;a href=&#34;https://twitter.com/ibuprofen1000&#34;&gt;Twitter&lt;/a&gt;)のオリジナルキャラクター「ナスターシャム」さんを描かせていただいたもの。細部の配色や効果に時間がかかったが、顔がうまく描けていない。ついでに言うとキャラクターの
+設定も特に活かせていなかった…&lt;br /&gt;
+&amp;nbsp;&lt;/br&gt;
+&amp;nbsp;&lt;/br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;strong-できるかな-strong&#34;&gt;&lt;strong&gt;できるかな&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;先述のお題企画より。お題は「ゴン太君」だったが、バランスの為ノッポさんにも急遽参加していただいた。やや影を強めにしてクールな感じが出せた気がする。なお、ノッポさんの左手から出ているものはイメージ。&lt;br /&gt;
+&amp;nbsp;&lt;/br&gt;
+&amp;nbsp;&lt;/br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;strong-曲イメージ-曲-by-king氏-strong&#34;&gt;&lt;strong&gt;曲イメージ(曲 by King氏)&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Twitterで行った、寄せられた楽曲のイメージを絵にする企画の中での(あくまでその中では)秀作で、お洒落さと西洋風味をもとに描いた。
+もとにした楽曲は提供者様(&lt;a href=&#34;https://twitter.com/qpwakaba&#34;&gt;Twitter&lt;/a&gt;)のオリジナル。
+この企画では全てモノクロで描くことにしていたため、誤魔化しやすいエアブラシが火を噴いている。エアブラシはいいぞ。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
       <link>http://pleurotus-eryngii.github.io/about/</link>
       <pubDate>Thu, 03 Nov 2016 09:17:20 +0900</pubDate>
       
       <guid>http://pleurotus-eryngii.github.io/about/</guid>
-      <description>&lt;p&gt;##最初の投稿
-これはテスト投稿です。&lt;/p&gt;
+      <description>
+
+&lt;h1 id=&#34;profile&#34;&gt;Profile&lt;/h1&gt;
+
+&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+
+&lt;p&gt;エリンギ(ゾンビ先生)と申すものです。名前が2つあってややこしいかと思いますが、どちらも別々の界隈でそれぞれ浸透してしまった名前なので今更統一も出来ない状態です。
+Mod製作、非公式日本ユーザーフォーラムでの質問回答など、主にMinecraft関連の活動を行っており、最近では準備中のMinecraft総合情報サイト「Minfo」の運営メンバー/デザイナーとして色々やっています。
+その他、&lt;a href=&#34;http://www.pixiv.net/member.php?id=5483364&#34;&gt;Pixiv&lt;/a&gt;や&lt;a href=&#34;https://twitter.com/stannum5&#34;&gt;Twitter&lt;/a&gt;でイラスト等も公開中です。&lt;/p&gt;
+
+&lt;p&gt;このサイトでは、そういった活動の状況や成果を発表するほか、その過程で得たちょっとした情報などを書き留めていきたいと思います。&lt;/p&gt;
+
+&lt;p&gt;ご連絡の際は、&lt;a href=&#34;https://twitter.com/stannum5&#34;&gt;Twitter&lt;/a&gt;へどうぞ。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>http://pleurotus-eryngii.github.io/about/</link>
+      <pubDate>Thu, 03 Nov 2016 09:17:20 +0900</pubDate>
+      
+      <guid>http://pleurotus-eryngii.github.io/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;profile&#34;&gt;Profile&lt;/h1&gt;
+
+&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+
+&lt;p&gt;エリンギ(ゾンビ先生)と申すものです。名前が2つあってややこしいかと思いますが、どちらも別々の界隈でそれぞれ浸透してしまった名前なので今更統一も出来ない状態です。
+Mod製作、非公式日本ユーザーフォーラムでの質問回答など、主にMinecraft関連の活動を行っており、最近では準備中のMinecraft総合情報サイト「Minfo」の運営メンバー/デザイナーとして色々やっています。
+その他、&lt;a href=&#34;http://www.pixiv.net/member.php?id=5483364&#34;&gt;Pixiv&lt;/a&gt;や&lt;a href=&#34;https://twitter.com/stannum5&#34;&gt;Twitter&lt;/a&gt;でイラスト等も公開中です。&lt;/p&gt;
+
+&lt;p&gt;このサイトでは、そういった活動の状況や成果を発表するほか、その過程で得たちょっとした情報などを書き留めていきたいと思います。&lt;/p&gt;
+
+&lt;p&gt;ご連絡の際は、&lt;a href=&#34;https://twitter.com/stannum5&#34;&gt;Twitter&lt;/a&gt;へどうぞ。&lt;/p&gt;
 </description>
     </item>
     
