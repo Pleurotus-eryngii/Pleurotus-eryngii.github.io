@@ -7,8 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Eryngii all rights reserved.</copyright>
+<<<<<<< HEAD
     <lastBuildDate>Fri, 04 Nov 2016 09:17:20 +0900</lastBuildDate>
     <atom:link href="http://pleurotus-eryngii.github.io/index.xml" rel="self" type="application/rss+xml" />
+=======
+    <lastBuildDate>Thu, 03 Nov 2016 09:17:20 +0900</lastBuildDate>
+    <atom:link href="https://pleurotus-eryngii.github.io/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> origin/master
     
     <item>
       <title>Gallery</title>
