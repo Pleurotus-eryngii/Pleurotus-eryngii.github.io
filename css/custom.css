@@ -1,6 +1,6 @@
 body {
-  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, "ƒƒCƒŠƒI", "Meiryo", "ŸàƒSƒVƒbƒN" , "Yu Gothic", Arial, sans-serif;
-  background-color: #FCFCFC;
+  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", "æ¸¸ã‚´ã‚·ãƒƒã‚¯" , "Yu Gothic", Arial, sans-serif;
+  background-color: #aab0c0/*#FCFCFC*/;
 }
 
 
@@ -76,7 +76,7 @@ main {
   background: linear-gradient(to right, white, #E1E1E1, white);
 }
 
-/* •\¦—Ìˆæ */
+/* è¡¨ç¤ºé ˜åŸŸ */
 #stage {
 	position:relative;
 	max-width: 960px;
@@ -85,9 +85,9 @@ main {
 	background: #333;
 	overflow:hidden;
 }
-/* ƒ‰ƒWƒIƒ{ƒ^ƒ“‚ğ”ñ•\¦ */
+/* ãƒ©ã‚¸ã‚ªãƒœã‚¿ãƒ³ã‚’éè¡¨ç¤º */
 input { display:none; }
-/* ƒXƒ‰ƒCƒh‹¤’Ê */
+/* ã‚¹ãƒ©ã‚¤ãƒ‰å…±é€š */
 .photo {
 	position: absolute;
 	left: 12%;top:10%;
@@ -98,7 +98,7 @@ input { display:none; }
 .pimage {
 	width:100%;
 }
-/* ŠeƒXƒ‰ƒCƒh‚Ìanimationİ’è */
+/* å„ã‚¹ãƒ©ã‚¤ãƒ‰ã®animationè¨­å®š */
 #photo1 {
 	animation:slidepass 36s infinite;
 	animation-delay:-12s;
@@ -123,7 +123,7 @@ input { display:none; }
 	animation:slidepass 36s infinite;
 	animation-delay:-18s;
 }
-/* –ß‚èE‘—‚èƒ{ƒ^ƒ“ */
+/* æˆ»ã‚Šãƒ»é€ã‚Šãƒœã‚¿ãƒ³ */
 .left_btn,.right_btn { 	
 	position:absolute;
 }
@@ -136,7 +136,7 @@ input { display:none; }
 }
 .right_btn:hover { background:url(images/fora.png);cursor:pointer; }
 
-/* ƒ{ƒ^ƒ“ƒNƒŠƒbƒN‚Ìanimation */
+/* ãƒœã‚¿ãƒ³ã‚¯ãƒªãƒƒã‚¯æ™‚ã®animation */
 #f1:checked ~ #photo1 { animation:slidepass1 36s infinite; animation-delay:-18s; }
 #f1:checked ~ #photo2 { animation:slidepass1 36s infinite; animation-delay:-12s; }
 #f1:checked ~ #photo3 { animation:slidepass1 36s infinite; animation-delay:-6s; }
@@ -221,7 +221,7 @@ input { display:none; }
 #b6:checked ~ #photo5 { animation:slideback6 36s infinite; animation-delay:-12s; }
 #b6:checked ~ #photo6 { animation:slideback6 36s infinite; animation-delay:-18s; }
 
-/* ƒXƒ‰ƒCƒh‚Ì“®‚«ƒƒ“ƒTƒCƒNƒ‹ */
+/* ã‚¹ãƒ©ã‚¤ãƒ‰ã®å‹•ããƒ¯ãƒ³ã‚µã‚¤ã‚¯ãƒ« */
 @keyframes slidepass {
 	0% {transform:perspective(1000px) rotateY(-100deg) translateZ(-500px);}
 	16.7% {transform:perspective(1000px) rotateY(-100deg) translateZ(-500px);}
