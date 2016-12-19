@@ -8,15 +8,16 @@ h1 { font-size: 2.6rem;
 	padding: .25em 0 .5em .75em;
 	border-left: 6px solid #ccc;
 	border-bottom: 1px solid #ccc;
+	margin-bottom: .75em;
 }
 h2 { font-size: 2.3rem;
-padding-bottom: .5em;
-	padding: .25em 0 .5em .65em;
-	border-bottom: 1px solid #ccc;}
+	padding-bottom: .5em;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: .5em;}
 h3 { font-size: 2.1rem; 
-padding-bottom: .65em;
-		padding: .25em 0 .5em .65em;
-	border-bottom: 3px double #ccc;}
+	padding-bottom: .35em;
+	border-bottom: 3px double #ccc;
+	margin-bottom: .35em}
 h4,
 h5{ font-size: 2.6rem;}
 h6{font-size: 2.5rem;
