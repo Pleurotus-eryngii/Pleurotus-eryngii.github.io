@@ -10,10 +10,12 @@ h1 { font-size: 2.6rem;
 	border-bottom: 1px solid #ccc;
 }
 h2 { font-size: 2.3rem;
-padding-bottom: .65em;
+padding-bottom: .5em;
+	padding: .25em 0 .5em .65em;
 	border-bottom: 1px solid #ccc;}
 h3 { font-size: 2.1rem; 
 padding-bottom: .65em;
+		padding: .25em 0 .5em .65em;
 	border-bottom: 3px double #ccc;}
 h4,
 h5{ font-size: 2.6rem;}
