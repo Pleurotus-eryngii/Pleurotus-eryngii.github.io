@@ -1,15 +1,39 @@
 body {
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, "メイリオ", "Meiryo", "游ゴシック" , "Yu Gothic", Arial, sans-serif;
-  background-color: #d1d4db/*#FCFCFC*/;
+  background-color:#F0F0F0;
 }
 
 
-h1 { font-size: 2.1rem;}
-h2 { font-size: 1.9rem; }
-h3 { font-size: 1.7rem; }
+h1 { font-size: 2.6rem;
+	padding: .25em 0 .5em .75em;
+	border-left: 6px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+h2 { font-size: 2.5rem;
+padding-bottom: .5em;
+	border-bottom: 3px double #ccc;}
+h3 { font-size: 2.3rem; 
+padding-bottom: .5em;
+	border-bottom: 1px solid #ccc;}
 h4,
-h5,
-h6 { font-size: 1.5rem;}
+h5{ font-size: 1.5rem;}
+h6{font-size: 2.5rem;
+	position: relative;
+	padding: 0 .5em .5em 1.7em;
+	border-bottom: 1px solid #ccc;
+}
+h6::after {
+	position: absolute;
+	top: .4em;
+	left: .4em;
+	z-index: 2;
+	content: '';
+	width: 12px;
+	height: 12px;
+	background-color: #ccc;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
 
 img {
   max-width: 100%;
