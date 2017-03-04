@@ -104,10 +104,10 @@ main {
 }
 
 blockquote{
-background-color:#ace9ff;
+background-color:#bde2ff;
 padding:1em 1em 1em 3em;
 position:relative;
-border-left:3px solid #1EAEDB;
+border-left:3px solid #ace9ff;
 }
 blockquote:before{
 content:"“";
