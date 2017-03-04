@@ -107,7 +107,7 @@ blockquote{
 background-color:#bde2ff;
 padding:1em 1em 1em 3em;
 position:relative;
-border-left:3px solid #ace9ff;
+border-left:3px solid #87c7fc;
 }
 blockquote:before{
 content:"“";
