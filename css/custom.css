@@ -106,6 +106,7 @@ main {
 blockquote{
 background-color:#bde2ff;
 padding:1em 1em 1em 3em;
+margin-bottom:0.5em;
 position:relative;
 border-left:3px solid #87c7fc;
 }
