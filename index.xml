@@ -7,8 +7,400 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Eryngii all rights reserved.</copyright>
-    <lastBuildDate>Thu, 03 Nov 2016 09:17:20 +0900</lastBuildDate>
-    <atom:link href="https://pleurotus-eryngii.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Mar 2017 23:03:53 +0900</lastBuildDate>
+    <atom:link href="http://pleurotus-eryngii.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>クラッシュレポートの上に表示されるコメント集</title>
+      <link>http://pleurotus-eryngii.github.io/crash-comments/</link>
+      <pubDate>Fri, 03 Mar 2017 23:03:53 +0900</pubDate>
+      
+      <guid>http://pleurotus-eryngii.github.io/crash-comments/</guid>
+      <description>
+
+&lt;h2 id=&#34;目次&#34;&gt;目次&lt;/h2&gt;
+
+&lt;p&gt;どうも、エリンギです。&lt;br /&gt;
+今回はMinecraftのクラッシュレポートの読み方…ではなく、&lt;br /&gt;
+&lt;strong&gt;クラッシュレポート上部についているMojangのコメント&lt;/strong&gt; を翻訳しつつご紹介したいと思います。&lt;br /&gt;
+クラッシュレポートの解読方法の方が気になる方は、&lt;a href=&#34;http://forum.minecraftuser.jp/viewtopic.php?f=5&amp;amp;t=28134&#34;&gt;私のフォーラム記事&lt;/a&gt; をどうぞ。&lt;br /&gt;
+&amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;クラッシュレポートのコメントとは&#34;&gt;クラッシュレポートのコメントとは?&lt;/h2&gt;
+
+&lt;p&gt;クラッシュレポートの2行目に表示される「//」のあとに続く英文。
+これが当記事での「コメント」です。(英語ではWitty Comment「ウィットに富んだコメント」というようです)&lt;br /&gt;
+&amp;nbsp;&lt;p&gt;
+クラッシュ内容を具体的に説明しているわけではなく、 プレイヤーを &lt;del&gt;イラっとさせるために&lt;/del&gt; 和ませるためにMojangの方が仕込んだ、
+タイトル画面のスプラッシュ・テキストと似たテイストのテキストとなっています(押韻)。&lt;br /&gt;
+&amp;nbsp;&lt;p&gt;
+そこで今回は、それらのコメントの翻訳・解説をお届けすることで、皆様の快適なクラッシュ解決ライフの一助としたいと思っています。&lt;/p&gt;
+
+&lt;p&gt;では早速行ってみましょう!&lt;br /&gt;
+(並べ方はABC順です)&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;daisy-daisy&#34;&gt;Daisy, Daisy&amp;hellip;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;デイジー、 デイジー…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;スタンリー・キューブリック監督の有名なSF映画「&lt;a href=&#34;https://ja.wikipedia.org/wiki/2001%E5%B9%B4%E5%AE%87%E5%AE%99%E3%81%AE%E6%97%85&#34;&gt;2001年宇宙の旅&lt;/a&gt;」(同名の小説の映画化)に登場する人工知能、HAL9000のセリフそのまま。
+このセリフは、HAL9000が回路を壊され狂っていく中、以前教えられた歌「デイジー・ベル」の一節を口ずさんだもので、故障を示すセリフとしてそれなりに知られているものです。
+クラッシュしたMinecraftを壊されたHAL9000になぞらえたシンプルなコメントと言えるでしょう。
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;don-t-be-sad-have-a-hug-3&#34;&gt;Don&amp;rsquo;t be sad, have a hug! &amp;lt;3&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;悲しまないで、ハグしようよ! ♥&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;特に元ネタはない様子。 「&lt;3」は日本ではあまり見かけない絵文字ですが、ハートを示すものです。  
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;don-t-be-sad-i-ll-do-better-next-time-i-promise&#34;&gt;Don&amp;rsquo;t be sad. I&amp;rsquo;ll do better next time, I promise!&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;悲しまないで。 次はもっとうまくやるから、約束するよ!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;こちらも元ネタはなさそう。
+Mod関連のクラッシュの場合、何回起動してもクラッシュする場合が多いです。&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;don-t-do-that&#34;&gt;Don&amp;rsquo;t do that.&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;そんなことしないでくれ。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;元ネタなし。クラッシュさせてしまった側としては胸に刺さるコメント。&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;everything-s-going-to-plan-no-really-that-was-supposed-to-happen&#34;&gt;Everything&amp;rsquo;s going to plan. No, really, that was supposed to happen.&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;全ては計画通りだ。 いや、本当、そうなるはずだったんだけど。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;元ネタは特にない様子。格好つけてみたけどすぐに弱気になるMinecraft、かわいい(錯乱)。&lt;br /&gt;
+ &lt;em&gt;※訳の一言解説…go to planで「計画通りに進む」みたいな意味になります。 supposed toは過去形では「そうなるはずだった」という予想ハズレを表す場合が多いようです&lt;/em&gt;&lt;br /&gt;
+   &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;hey-that-tickles-hehehe&#34;&gt;Hey, that tickles! Hehehe!&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;おっと、くすぐったいよ! アハハ!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;クラッシュして「くすぐったい」で済むのか…というのはさておき、元ネタは特になさそうです。&lt;br /&gt;
+&amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;hi-i-m-minecraft-and-i-m-a-crashaholic&#34;&gt;Hi. I&amp;rsquo;m Minecraft, and I&amp;rsquo;m a crashaholic.&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;どうも。私はMinecraftという者で、クラッシュ厨です。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;米国のアルコール依存症自助グループ「アルコーホーリクス・アノニマス」での前置き「Hi, my name is _____ and I&amp;rsquo;m an alcoholic(どうも、僕の名前は～～で、アル中です)」のパロディ。
+その他の自助グループでも似たような前置きが用いられるので、少なくともそのうちのどれかのパロディかと思います。&lt;br /&gt;
+ちょっとブラックジョーク気味なコメントですが、Mod制作作業をしていると本格的にCrashaholicな状態になります…&lt;br /&gt;
+余談ですが、吾妻ひでお氏の実録漫画「アル中病棟」でも似たような前置きを目にした覚えがあるので、日本でも(その筋の団体では)使われている様子。&lt;br /&gt;
+    &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;i-bet-cylons-wouldn-t-have-this-problem&#34;&gt;I bet Cylons wouldn&amp;rsquo;t have this problem.&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;サイロンならきっとこんな問題起こさないだろうな。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Cylon(サイロン)はTVドラマ「宇宙空母ギャラクティカ」に登場する機械生命体。特に本編の有名なセリフではないので、サイロンの優秀さを讃えたオリジナルコメントだと思います。&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;i-blame-dinnerbone&#34;&gt;I blame Dinnerbone.&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Dinnerboneが悪いんだ。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Nathan &amp;lsquo;Dinnerbone&amp;rsquo; Adams氏はMojangの社員で、MinecraftPC版の開発を行っているうちの一人です。
+(最近までは新ランチャーの開発に携わっていました)
+多分本人が仕込んだものだと思いますが、Mod関連だろうが何だろうがクラッシュ全般の責任を押し付けられるのは少々可哀想。&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;i-feel-sad-now&#34;&gt;I feel sad now :(&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;つらい(´・ω・`)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;つらそう。&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;i-just-don-t-know-what-went-wrong&#34;&gt;I just don&amp;rsquo;t know what went wrong :(&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;何が悪いのか分からないよ(´・ω・`)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;別のコメント「Oh - I know what I did wrong!」と対になる形のコメント。素直。&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;i-let-you-down-sorry&#34;&gt;I let you down. Sorry :(&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;がっかりさせてしまったね。ごめんよ(´・ω・`)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;この辺りで頻出する絵文字「:(」は悲しい顔を示す絵文字ですが、日本では(´・ω・`)とかのほうが一般的かな、と思って訳に反映させてみました。
+ &lt;em&gt;※訳の一言解説… let you downで「がっかりさせる、失望させる」の意。「I won&amp;rsquo;t let you down」で「任せてください!」みたいに使うことも。&lt;/em&gt;&lt;br /&gt;
+&amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;i-m-sorry-dave&#34;&gt;I&amp;rsquo;m sorry, Dave.&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;申し訳ありません、デイヴ。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;こちらも「2001年宇宙の旅」(前述)のHAL9000のセリフ。元々は「I&amp;rsquo;m sorry, Dave. I&amp;rsquo;m afraid I can&amp;rsquo;t do that.(申し訳ありません、デイヴ。それはできません。)」。
+ちなみにデイヴは宇宙船の船長の愛称です。クラッシュしたのを謝っているだけなので後半をカットしたと思われます。&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;my-bad&#34;&gt;My bad.&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;僕が悪い。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;普通に謝罪してくれるシリーズ。クラッシュの大半はMod導入側が悪かったりするので逆に申し訳ない&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;oh-i-know-what-i-did-wrong&#34;&gt;Oh - I know what I did wrong!&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;あぁ - 何が間違ってたか分かったよ!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;前述のコメント「I just don&amp;rsquo;t know what went wrong :(」と対になるコメント。
+冒頭で書いたとおり、このコメントはランダムで選択されるので、原因が分かっているわけではありません。&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;on-the-bright-side-i-bought-you-a-teddy-bear&#34;&gt;On the bright side, I bought you a teddy bear!&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;明るいことを考えよう、ほら、テディベアを買ってあげるよ!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;特に元ネタはないようですが、日本でもよく見られる父からの娘への慰めですね。
+ &lt;em&gt;※訳の一言解説…「On the bright side」は、「明るい面を挙げれば/救われるのは」といった意味。&lt;/em&gt;&lt;br /&gt;
+ &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ooh-shiny&#34;&gt;Ooh. Shiny.&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;ごめん、ボーっとしてた。(おっと、眩しいね。)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;元ネタは特にないようですが、&lt;a href=&#34;http://www.urbandictionary.com/define.php?term=ooh%20shiny&#34;&gt;Urban Dictionary&lt;/a&gt; によれば「ooh shiny」は
+「心ここにあらずといった様子で、ボーっとしていたり惚けていたりする人のこと。照り輝く石を見つめる鳥に似ていることから(意訳)」という意味だそうです。
+ボーっとしていて起動に失敗してしまった、という感じでしょうか&lt;br /&gt;
+ &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;oops&#34;&gt;Oops.&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;おっと。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;やっちゃった、という感じ。特に分析しようがない…&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ouch-that-hurt&#34;&gt;Ouch. That hurt :(&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;うわっ。痛いじゃないか(｀･∧･´)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他のコメントとは違い、プレイヤー側がやってしまった様子。&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;quite-honestly-i-wouldn-t-worry-myself-about-that&#34;&gt;Quite honestly, I wouldn&amp;rsquo;t worry myself about that.&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;誓って言いますが、私はそのことに悩むことは無いでしょう。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;これも「2001年宇宙の旅」からの引用。フランクが「9000系人工知能には今まで一つも、ほんのちょっとしたコンピュータ・エラーすら無かったというのか?」と聞いたのに対する返答です。
+(原文では「None whatsoever, Frank. Quite honestly, I wouldn&amp;rsquo;t worry myself about that.」です)&lt;/p&gt;
+
+&lt;p&gt;つまりはこのクラッシュはヒューマン・エラーだと言っているわけですが、映画ではこの後HAL本体にバグが起こっていることが分かるので、それも含めたコメントなのかもしれません。&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;shall-we-play-a-game&#34;&gt;Shall we play a game?&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;ゲームをしましょうか?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;ジョン・バダム監督のSF映画「&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A9%E3%83%BC%E3%83%BB%E3%82%B2%E3%83%BC%E3%83%A0&#34;&gt;ウォー・ゲーム&lt;/a&gt;」からの引用。主人公デビット・ライトマンが、ゲームのホストコンピュータ「ジョシュア」に最初に接続したときのメッセージです。
+クラッシュとの直接の関連は無いので、コンピュータ繋がりでの引用だと思います。&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;sorry&#34;&gt;Sorry :(&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;ごめん。(´・-・`)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;こちらこそごめん。&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;surprise-haha-well-this-is-awkward&#34;&gt;Surprise! Haha. Well, this is awkward.&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;サプラーイズ! ハハ。 えーっと、こいつは厄介だね。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;精神状態によってはムカッと来るコメント(個人の感想です)。
+awkwardは「気まずい」の意もあるので、そちらのニュアンスも含まれているのかもしれません。&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;there-are-four-lights&#34;&gt;There are four lights!&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;ライトは4つだ！4つしかない!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;テレビドラマ「新スタートレック」のシーズン6、エピソード11からの引用。艦長のジャン=リュック・ピカードが敵対するカーデシア人に捕まり、上にある電灯がいくつあるのか答えろ、
+間違えれば全身に苦痛を与える、という拷問を受けた際の言葉です。ライトは実際4つしかないのだが、カーデシア人は5つあると言って苦痛を与えていきます。
+追いつめられたピカードにはライトがもはや5つに見えていたのですが、最後まで抵抗を続けてこのセリフを放ちました。&lt;br /&gt;
+有名なセリフであり、英語圏では他者が信じることを否定し続けるような不毛な議論を終わらせる際のセリフとして使われることも多いようです。(&lt;a href=&#34;http://www.urbandictionary.com/define.php?term=there%20are%20four%20lights&#34;&gt;出典&lt;/a&gt;)&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;this-doesn-t-make-any-sense&#34;&gt;This doesn&amp;rsquo;t make any sense!&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;意味不明だよ!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;元ネタは無いようです。わけが分からないよ!
+ &lt;em&gt;訳の一言解説…「make sense」は「意味が分かる、道理に合っている」という意味でよく使われる表現。&lt;/em&gt;&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;this-is-a-token-for-1-free-hug-redeem-at-your-nearest-mojangsta-hug&#34;&gt;This is a token for 1 free hug. Redeem at your nearest Mojangsta: [&lt;del&gt;HUG&lt;/del&gt;]&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;これは無料で1回ハグしてもらえるチケットだよ。お近くのMojang社員に引き換えてもらおう: [&lt;del&gt;ハグ&lt;/del&gt;]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;WiiU他向けのゲーム「リトルインフェルノ」に登場する「ミス・ナンシー」からもらえるハグクーポンの受け取り時メッセージが元ネタ。
+クラッシュするたびにMojang社員とハグできるならそれはそれで楽しい気もします。
+なお、MojangstaというのはGangsta(ギャング)をもじったもので、Mojang社員のことを指します。&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;uh-did-i-do-that&#34;&gt;Uh&amp;hellip; Did I do that?&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;うーんと… 僕が悪いのかな?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;元ネタは特にない様子。内容もそのままです。&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;who-set-us-up-the-tnt&#34;&gt;Who set us up the TNT?&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;TNTを仕掛けたのは誰だ?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;クラッシュを爆発になぞらえた表現。多分クリーパーの仕業だと思います。&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;would-you-like-a-cupcake&#34;&gt;Would you like a cupcake?&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;カップケーキはいかがかな?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;先述のテディ・ベア似たような感じ。
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;why-did-you-do-that&#34;&gt;Why did you do that?&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;どうしてこんなことを?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;こちらが申し訳なくなってくるコメント。ちょっとModを入れすぎただけなんだ…&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;why-is-it-breaking&#34;&gt;Why is it breaking :(&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;なんで壊れちゃったんだろう(´・-・`)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;前のコメントと同系統。&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;you-re-mean&#34;&gt;You&amp;rsquo;re mean.&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;いじわる。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;訳し方によっては可愛いコメント。これからはMinecraft萌えの時代だ(?)。&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;you-should-try-our-sister-game-minceraft&#34;&gt;You should try our sister game, Minceraft!&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;姉妹ゲームのMinceraftをプレイすべきです!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;タイトル画面の「C」と「E」が10000分の1の確率で入れ替わるというMinecraft本体のイースターエッグ(隠し要素)を暗喩しているコメント。
+Minecraftはこれ以外にもイースターエッグが意外と沢山仕込まれているので、気になる方は探してみては。&lt;br /&gt;
+  &amp;nbsp;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;witty-comment-unavailable&#34;&gt;Witty comment unavailable :(&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;ウィットに富んだコメントは現在利用できません(´・ω・`)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;ランダムに選ばれたコメントを取得するのに失敗した場合に表示されるもので、コメント自体がコード化されているレアコメントだそうです。&lt;br /&gt;
+これはこれでウィットが効いている、という矛盾。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>works</title>
+      <link>http://pleurotus-eryngii.github.io/works/</link>
+      <pubDate>Fri, 27 Jan 2017 22:42:59 +0900</pubDate>
+      
+      <guid>http://pleurotus-eryngii.github.io/works/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>movies</title>
+      <link>http://pleurotus-eryngii.github.io/movies/</link>
+      <pubDate>Fri, 27 Jan 2017 22:41:16 +0900</pubDate>
+      
+      <guid>http://pleurotus-eryngii.github.io/movies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>illustrations</title>
+      <link>http://pleurotus-eryngii.github.io/illustrations/</link>
+      <pubDate>Fri, 27 Jan 2017 22:39:26 +0900</pubDate>
+      
+      <guid>http://pleurotus-eryngii.github.io/illustrations/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Gallery</title>
@@ -106,15 +498,114 @@
 
 &lt;h1 id=&#34;profile&#34;&gt;Profile&lt;/h1&gt;
 
+&lt;p&gt;&amp;nbsp;&lt;br&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 
 &lt;p&gt;エリンギ(ゾンビ先生)と申すものです。名前が2つあってややこしいかと思いますが、どちらも別々の界隈でそれぞれ浸透してしまった名前なので今更統一も出来ない状態です。
 Mod製作、非公式日本ユーザーフォーラムでの質問回答など、主にMinecraft関連の活動を行っており、最近では準備中のMinecraft総合情報サイト「Minfo」の運営メンバー/デザイナーとして色々やっています。
-その他、&lt;a href=&#34;http://www.pixiv.net/member.php?id=5483364&#34;&gt;Pixiv&lt;/a&gt;や&lt;a href=&#34;https://twitter.com/stannum5&#34;&gt;Twitter&lt;/a&gt;でイラスト等も公開中です。&lt;/p&gt;
+その他、&lt;a href=&#34;http://www.pixiv.net/member.php?id=5483364&#34;&gt;Pixiv&lt;/a&gt;や&lt;a href=&#34;https://twitter.com/stannum5&#34;&gt;Twitter&lt;/a&gt;でイラスト等も公開中です。
+&amp;nbsp;&lt;br&gt;
+&lt;br&gt;このサイトでは、そういった活動の状況や成果を発表するほか、その過程で得たちょっとした情報などを書き留めていきたいと思います。
+&amp;nbsp;&lt;br&gt;
+&lt;br&gt;ご連絡の際は、&lt;a href=&#34;https://twitter.com/stannum5&#34;&gt;Twitter&lt;/a&gt;へどうぞ。
+&lt;br&gt;
+&amp;nbsp;&lt;br&gt;
+&amp;nbsp;&lt;br&gt;
+&amp;nbsp;&lt;br&gt;
+&amp;nbsp;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;このサイトでは、そういった活動の状況や成果を発表するほか、その過程で得たちょっとした情報などを書き留めていきたいと思います。&lt;/p&gt;
+&lt;h2 id=&#34;主な活動&#34;&gt;主な活動&lt;/h2&gt;
 
-&lt;p&gt;ご連絡の際は、&lt;a href=&#34;https://twitter.com/stannum5&#34;&gt;Twitter&lt;/a&gt;へどうぞ。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Minecraft非公式日本ユーザーフォーラムでの質問回答&lt;/li&gt;
+&lt;li&gt;MinecraftのMod製作(未公開)&lt;/li&gt;
+&lt;li&gt;GamepediaのMinecraft Wikiでの翻訳&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pleurotus-eryngii.github.io/gallery/&#34;&gt;イラスト&lt;/a&gt;描く(ドット絵から普通の絵まで色々)&lt;/li&gt;
+&lt;li&gt;その他翻訳活動（&lt;a href=&#34;http://www.nicovideo.jp/watch/sm30034530&#34;&gt;AVGN&lt;/a&gt;, &lt;a href=&#34;http://blog.livedoor.jp/pleurotus_zombie/archives/6651899.html&#34;&gt;Year Of The Ladybug&lt;/a&gt;など）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;br&gt;
+&amp;nbsp;&lt;br&gt;
+&amp;nbsp;&lt;br&gt;
+&amp;nbsp;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;趣味嗜好&#34;&gt;趣味嗜好&lt;/h2&gt;
+
+&lt;h3 id=&#34;読書&#34;&gt;読書&lt;/h3&gt;
+
+&lt;p&gt;最近はそんなに読んでいませんが、ミステリ、SF、ラノベ関連までジャンルを問わずに読んでいます。
+好きな作家/作品は以下に。(敬称略)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;シャーロック・ホームズ及びそのパスティーシュ - 正典をハードカバーで買ってしまったので未だに読み終えられていません。無念&lt;/li&gt;
+&lt;li&gt;星新一 - 好きなんですが、まだ読んでいないものがいくつか&lt;/li&gt;
+&lt;li&gt;森見登美彦 - 貧乏学生がそこまで主張してこないタイプの話が好き&lt;/li&gt;
+&lt;li&gt;ギリシア文学(イリアスなど) - イリアス、オデュッセイアを中心に&lt;/li&gt;
+&lt;li&gt;伊坂幸太郎 - ゴールデンスランバーが特に&lt;/li&gt;
+&lt;li&gt;吉川英治 - 三国志。独自のアレンジが大好きです&lt;/li&gt;
+&lt;li&gt;時雨沢恵一 - キノ、1つの大陸の物語ほか。最近は新刊を追えていません&lt;/li&gt;
+&lt;li&gt;and etc&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;br&gt;
+&amp;nbsp;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;音楽&#34;&gt;音楽&lt;/h3&gt;
+
+&lt;p&gt;作業用BGMなどとして流すことが多いため、音楽フォルダ内にはインスチュラメンタルが割と沢山あります。
+最近はファミコン、NES、ゲームボーイなどのゲーム音楽をよく聞いています。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pia-no-jaC - 激しいピアノ曲はPia-no-jaCに限らず好きです&lt;/li&gt;
+&lt;li&gt;Dschinghis Khan(ジンギスカン、めざせモスクワなどで有名) - Samuraiが個人的にお気に入り&lt;/li&gt;
+&lt;li&gt;Thomas Dolby - Nothing New Under The Sun&lt;/li&gt;
+&lt;li&gt;Scatman John - 最近はまりつつあります&lt;/li&gt;
+&lt;li&gt;Red Hot Chili Peppers - &lt;a href=&#34;https://www.youtube.com/watch?v=Q0oIoR9mLwc&#34;&gt;Dark Necessities&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;サカナクション - 全般的に&lt;/li&gt;
+&lt;li&gt;じん(自然の敵P) - 曲とPV(しづさん、わんにゃんぷーさんによる）は好きです。その他の展開には特に興味がありません&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rokkochan.bandcamp.com/&#34;&gt;RokkoChan Soundtracks&lt;/a&gt; - ASAGEN氏他。アレンジ/チップドトラックも素敵です&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ZQlLl2j5THQ&#34;&gt;Silver Surfer&lt;/a&gt; - 知る人ぞ知る名ゲーム音楽作曲者、Tim Folin氏の代表作。NESとは思えない脅威のサウンド&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=yCNJuxV5EJg&#34;&gt;rAf World(Journey to Silius)&lt;/a&gt; - こちらも有名なNES/FCソフト。TitleとStage1&amp;amp;5が個人的に特に好きです&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=p_1jU3eyK7Y&#34;&gt;Adventures of Tintin ― The Prisoners of the Sun(GB/GBC版）&lt;/a&gt; - あまり有名ではないですが名曲ぞろいです。&lt;/li&gt;
+&lt;li&gt;and etc&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;br&gt;
+&amp;nbsp;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;漫画&#34;&gt;漫画&lt;/h3&gt;
+
+&lt;p&gt;最近はめっきり読む冊数が少なくなりました。長くなりすぎてもいけないので列挙は控えておきます
+&amp;nbsp;&lt;br&gt;
+&amp;nbsp;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;ゲーム&#34;&gt;ゲーム&lt;/h3&gt;
+
+&lt;p&gt;PCゲームがメインです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Minecraft - 関連の活動はしているものの、まともにプレイしたのは半年前くらい…（遠い目）&lt;/li&gt;
+&lt;li&gt;The Elder Scrolls V: Skyrim - メインクエストラインはクリアしたもののまだまだこれからです。&lt;/li&gt;
+&lt;li&gt;M.U.G.E.N. - まだ地味に続けています。&lt;/li&gt;
+&lt;li&gt;トキメキファンタジー ラテール ― 最近ほぼ行っていません。&lt;/li&gt;
+&lt;li&gt;PSO2 - PCスペックがついていかなかった（白目）&lt;/li&gt;
+&lt;li&gt;ブラウザゲーム - 前述のRokkoChan他、小物から大規模まで色々と。&lt;/li&gt;
+&lt;li&gt;Undertale, TES: Onlineが欲しい&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;br&gt;
+&amp;nbsp;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;動画他&#34;&gt;動画他&lt;/h3&gt;
+
+&lt;p&gt;その他も趣味というか暇つぶしでやっているものが色々と。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;AVGN, JDGなど - 長さも手頃なのでよく見ます。AVGNがもうすぐ更新に追いつきそうな辛さ&lt;/li&gt;
+&lt;li&gt;チートバグ動画 - 近頃見始めました。もし私が書いた文章に用語/語録が混じっていたら恐らく無意識に使っています&lt;/li&gt;
+&lt;li&gt;実況動画 - あまり見なくなりました&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
