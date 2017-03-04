@@ -103,6 +103,23 @@ main {
   background: linear-gradient(to right, white, #E1E1E1, white);
 }
 
+blockquote{
+background-color:#ace9ff;
+padding:1em 1em 1em 3em;
+position:relative;
+border-left:3px solid #1EAEDB;
+}
+blockquote:before{
+content:"“";
+font-size:600%;
+line-height:1em;
+font-family:"ＭＳ Ｐゴシック",sans-serif;
+color:#999;
+position:absolute;
+left:0;
+top:0;
+}
+
 /* 表示領域 */
 #stage {
 	position:relative;
