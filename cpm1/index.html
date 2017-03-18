@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.17" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="https://pleurotus-eryngii.github.io/css/normalize.css">
+<link rel="stylesheet" href="https://pleurotus-eryngii.github.io/css/skeleton.css">
+<link rel="stylesheet" href="https://pleurotus-eryngii.github.io/css/custom.css">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+<link rel="alternate" href="https://pleurotus-eryngii.github.io/index.xml" type="application/rss+xml" title="Eryngii&#39;s Works">
+<style type="text/css">
+h1{ margin-top: 0; margin-bottom: 0 }
+p { margin-top: 0; margin-bottom: 0 }
+</style>
+<title>cpm1 - Eryngii&#39;s Works</title>
+</head>
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div class="header-logo">
+			<a href="https://pleurotus-eryngii.github.io/"><img src="https://pleurotus-eryngii.github.io/images/logo.png" width="100" height="100" alt="Eryngii&#39;s Works"></a>
+		</div>
+		
+		
+	</header>
+
+
+	<main role="main">
+		<article itemscope itemtype="http://schema.org/BlogPosting">
+			<h1 class="entry-title" itemprop="headline">プログラミング知識ほぼ不要でModを製作する方法(基礎編)</h1>
+			<span class="entry-meta"><time itemprop="datePublished" datetime="2017-03-18">March 18, 2017</time></span>
+			<section itemprop="entry-text">
+				<p><style>
+body{
+    background-color: #585858 !important;
+    color: #FFF;
+}
+</style>
+<img src="http://pleurotus-eryngii.github.io/images/amarec20161027-233855.png" width="120%"  class="alignnone size-large wp-image-399" />
+どうも。ゾンビ先生(エリンギ)です。</p>
+
+<p>この記事では、タイトルにもある通り<strong>「Modding」</strong>について扱っていきたいと思います。</p>
+
+<p>記事進行の都合上、順を追ってゆっくり説明していくことになりますので、要点だけ分かれば十分だぜ、という方はこの後の段落を飛ばして<a href="#end">記事最下部にあるまとめ</a>をご覧ください。</p>
+
+<div style="border-style:solid; border-width:1px; padding: 15px 5px 5px 15px; border-color:white; background-color:#585858">
+<strong>注意</strong>
+当記事で紹介する方法に関するご質問・ご意見は、フォーラム等ではなく<strong>この記事への返信</strong>でお願いいたします。
+また、方法本体とあまり関係がない、基礎的な内容に関する質問が多く寄せられた場合、回答しない場合があります。申し訳ありません。</div>
+
+<p></br>
+<div style="padding: 10px; border: solid 1px #FFFFFF; background-color: #454545;">■目次<br />
+<a href="#01">1. Moddingを簡単に…?</a><br />
+<a href="#02">2. コピペModdingとは?</a><br />
+<a href="#03">3. 具体的な手順</a><br />
+<a href="#03_1">&nbsp;&nbsp;3-1. 準備する物</a><br />
+<a href="#03_2">&nbsp;&nbsp;3-2. JDK導入手順</a><br />
+<a href="#03_3">&nbsp;&nbsp;3-3. Eclipse導入手順</a><br />
+<a href="#03_4">&nbsp;&nbsp;3-4. Forge導入手順</a><br />
+<a href="#03_5">&nbsp;&nbsp;3-5. 最初に行うこと</a><br />
+<a href="#04">4. Moddingの基礎知識</a><br />
+<a href="#05">5.コピペや参考元に使えるサイト様</a><br />
+</div>
+</br>
+&nbsp;
+</br></p>
+
+<h2 id="01">1.Moddingを簡単に…?</h2>
+皆さんは、Modding（Mod製作)と聞いて、どんな印象を持たれますか?<br>
+<br>
+<strong><font color="#ff667c">「なんだか難しそう…」</font><br>
+<font color="#47d4ff"> 「プログラミングができないといけないんでしょ?」</font></strong>  <br>
+  <br>
+といった風に思われている方も多いと思います。  
+  
+確かに、ModはJavaなどのプログラム言語で書かれたプログラムで、1から書こうとすればそれ相応の技術が必要になってきます。  
+  
+しかし、この記事でご紹介する<font color="#14f8af"><strong>「コピペModding(仮)」</strong></font>なら、そういった高度なプログラミングの技術・知識が一切なくとも、ブロックの追加からMob・キー操作まで、様々な機能を持つModが製作できるのです!  
+  
+ただ、一応言っておくと、コピペ後の変更等の際にはJava等の知識ややる気が多少必要になってきます。その辺りはご了承下さい。  
+  
+…興味を持っていただけましたか? では早速、その方法をお教えしましょう!  
+  
+&nbsp;
+<h2 id="02">2.コピペModdingとは</h2>
+<img src="https://pleurotus-eryngii.github.io/images/DescrFigure1.png" width="100%" class="alignnone size-thumbnail wp-image-409" />
+コピペModdingとは、その名の通り <font color="#fff84a">Mod製作の大部分をコピー＆貼り付けでやってしまおう</font>、という手法のことです。  
+  
+Modのコード(=プログラム内容)も、別にそれぞれのModの完全オリジナルというわけではなく、基本的な要素追加などの方法には共通部分がかなりあります。  
+その共通部分を既存のコードから持ってきて、名前やテクスチャなど見た目に関わる部分を変更していく、というのがやや詳しい説明ですね。  
+  
+しかしまあ、これだけ言われてもよくわかりません(私も書いていてよくわからなくなってきました)ので、早速具体的な内容に入っていきましょう。    
+  
+&nbsp;
+<h2 id="03">3.製作の下準備</h2>  
+  
+
+<p><h4 id="03_1">準備する物</h4>
+<div style="border-style:solid; border-width:1px; padding: 15px 5px 5px 15px; border-color:white; background-color:#505050">
+<strong>・JDK(Java Develpment Kit)</strong>
+<a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html"><img src="https://pleurotus-eryngii.github.io/images/amarec20161026-232140.png" width="600"  class="alignnone size-medium wp-image-361" /></a>
+<a><a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">http://www.oracle.com/technetwork/java/javase/downloads/index.html</a></a><br />
+Javaで開発するためのものです。これ自体に触れることはほとんどありません。</p>
+
+<p><strong>・Eclipse(日本語化版はPleiades)、またはIntelliJ IDEAなどのJava開発環境</strong>
+<a href="http://mergedoc.osdn.jp/"><img src="https://pleurotus-eryngii.github.io/images/amarec20161026-232156.png" width="600"  class="alignnone size-medium wp-image-362" /></a>
+<a><a href="http://mergedoc.osdn.jp/">http://mergedoc.osdn.jp/</a></a>(Eclipse日本語版)<br />
+私自身はEclipseを使用していますので、今後はそれに基づいて書いていきます。 バージョンは大きく影響しませんが、理由がなければ最新版がお勧めです。</p>
+
+<p><strong>・Forgeのソースファイル</strong>
+<a href="http://files.minecraftforge.net"><img src="https://pleurotus-eryngii.github.io/images/amarec20161026-232055.png" width="600"  class="alignnone size-medium wp-image-360" /></a>
+<a><a href="http://files.minecraftforge.net/">http://files.minecraftforge.net/</a></a><br />
+最近はほとんどのModがForgeを前提としていますので、こちらの導入も必要になってきます。<br />
+</div><br />
+</br>
+</br>
+(以下の導入手順は <a href="http://minecraftjp.info/modding/index.php/MinecraftForge%E5%B0%8E%E5%85%A5%E6%89%8B%E9%A0%86">Minecraft Modding Wiki</a> の内容をやや要約したものになっています。詳細な内容は元のページをご覧ください。ただ、質問はこの記事への返信などでお願いします
+なお、以下の手順はWindowsでのものですので、他のOSをお使いの方はファイル形式等が異なる可能性があります。基本は同じはずなので形式などだけ読み替えてください)
+<h4 id="03_2">JDK導入手順</h4>
+リンク先、<font color="#ff7a00"><strong>JDK DOWNLOAD</strong></font>（JREではありません)をクリックし、Oracle Binary Code License Agreement for Java SEを確認の上「Accept License Agreement」にチェックを入れてからその下の、自分のPCのOSに合ったJDKをダウンロードしてください。32bit版はx86と記載されています。
+その後、ダウンロードしたexeファイルをダブルクリックして導入してください。</p>
+
+<p>&nbsp;
+<h4 id="03_3">Eclipse導入手順</h4>
+ダウンロードした<font color="#7d99ff">Eclipse</font>または<font color="#00af90">Pleiades All In One</font>を解凍してください。その中にEclipse.exeがあるのでそこから起動できます。余談ですが、Pleiades All In Oneの方が<strong>起動時の画面が格好いい</strong>です(個人の感想です)。</p>
+
+<p><img src="https://pleurotus-eryngii.github.io/images/3dc05f35-cf56-62f2-5f12-2af95f8e587f.png" alt="NEON" width="150"  class="alignnone size-thumbnail wp-image-403" /><font size="-3">
+  格好いい</font><br />
+  <font color="#ff312d">(注意:Lhaplus、Lhaca、jar コマンドでは解凍が<strong>できません</strong>。Windowsならば右クリックして「すべて展開」を選択するのがいいと思います。詳細はDLリンク最下部を参照してください)</font></p>
+
+<p>&nbsp;
+<h4 id="03_4">Forge導入手順</h4>
+リンク先から、ダウンロードしたいForgeのバージョンを探し、右のほうの「Src」からダウンロードしてください。<br />
+<font color="#ffc5ff">Forgeのバージョンがそのまま、作ったModが対応するMinecraftのバージョンになります</font>ので、制作したいバージョンのものをどうぞ。<br />
+ただ、コピペ元のコードの数の関係から、この記事では<font color="#ff667c">1.7(.10-10.13.4.1558)</font>を扱わせていただきます。</p>
+
+<p>ダウンロードしたSrcを解凍し、中にあるgradlew.batをメモ帳などで開いて、JDKのパスを下のようにショートネームで追記します。位置は12～18行目あたりのset～～～が並んでいる辺りで問題ありません。</p>
+
+<p><font color="#e3f900">set JAVA_HOME=C:\PROGRA~1\Java\jdk(バージョン)</font></p>
+
+<p>ショートネームが分からなければ「dir /x C:\」と打てば表示されます。。「Program Files」は「PROGRA~1」などとなります。</p>
+
+<p>gradlew.batがある場所と同じ階層に、新しくテキストファイルを作成し、中に以下のコードを書いて「Install.bat」として保存してください。<br />
+(IDEを使わないでデバッグする人用)
+<pre class="lang:default decode:true " >call gradlew setupDecompWorkspace</pre></p>
+
+<p>(Eclipse用)
+<pre class="prettyprint" >
+call gradlew setupDecompWorkspace eclipse
+pause
+</pre></p>
+
+<p>(intellij IDEA用)
+<pre class="prettyprint" >
+call gradlew setupDecompWorkspace idea
+pause
+</pre></p>
+
+<p></br>
+保存したら、そのbatをダブルクリックで実行してください。少しかかるので鉱石でも採掘して待っていましょう。<br />
+最後のほうに「<font color="#ffff2c">BUILD SUCCESSFUL</font>」と表示されていれば成功です。表示されていなかった場合は「gradlew &ndash;refresh-dependencies」をInstall.batなどと同じようにして実行させて関連ファイルの再生成を行ってからInstall.batを実行してみてください。</p>
+
+<p>複数のModを同じ場所で開発する場合はbuild.gradleの編集が必要になりますが、ここでは省略させていただきます。Modding Wikiなどをご覧ください。</p>
+
+<p>&nbsp;
+<h4 id="03_5">最初に行うこと</h4>
+蒸気の作業が終わったらEclipseを起動し、ワークスペース(恐らく設定を求めるウィンドウが表示されるかと思います)に用意したForgeのファイル群内の「eclipse」フォルダを指定してください。</p>
+
+<p>起動できたら、左のほうにある「パッケージ・エクスプローラー」のMinecraftを開き、中のsrc/main/javaを開いてください。<br />
+<font color="#53bbff">「com.example.examplemod」</font>というパッケージがあるかと思いますが、それはForge側が用意したサンプルですので、出力が面倒にならないよう削除しておきましょう。</p>
+
+<p>更に、コードを入れるパッケージ(後述)を作成しておきます。src/main/javaを右クリックし、新規&gt;パッケージから作成してください。<br />
+パッケージ名に制約はありませんが、<font color="#9eff51">自分の名前</font>(ドメインを持っている場合はそれの逆引き)と<font color="#ff6b51">Mod名</font>を組み合わせる場合が多いようです。他のModと被らないように設定しておきましょう。<br />
+例:<font color="#9eff51">eryngii</font>.<font color="#ff6b51">minfopost</font>(ドメイン名を持っていない場合)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#9eff51">com.example</font>.<font color="#ff6b51">examplemod</font>(example.comというドメインを持っている場合)<br />
+ここまで終われば、後はコピペ元に従ってクラスやパッケージを追加していくだけです。具体的な追加方法については次回から書いていきます!</p>
+
+<p>&nbsp;
+<h2 id="04">4.Moddingの基礎知識</h2>
+今後の記事内容を読んでいくうえで重要になってくるので、ここで大まかに用語について説明しておきます。</p>
+
+<p>ただ、記事内で一般的ではない用語を使う場合は説明を付けますので、以下の内容を完全に把握する必要は全くありません。少しずつ慣れていきましょう!</p>
+
+<p>ほとんどコピペで済むとはいっても、コピペしたものを上手く作り替えていく関係で、多少の内容把握は必要になります。下の図に簡単に示してみたので眺めるだけ眺めてみてください。
+<img src="https://pleurotus-eryngii.github.io/images/amarec20161027-2008062.png" width="1000"  class="alignnone size-medium wp-image-385" />
+(画像はEclipse、Forge#1558、外観をダーク、フォントをメイリオに変更済みでのものです)</p>
+
+<p><font color="#ff2557">①パッケージ<br />
+Modのソースを格納しておく部分で、クラス数が多い場合などにはcom.example.examplemod.blocksのように、パッケージ内にさらにパッケージを作成して整理することもあります。</font></p>
+
+<p><font color="#ff8f6b">②クラス<br />
+Modのソースコードを書き込んでいくファイルです。基礎的な登録などを行うCoreクラス、ブロック情報を記載するBlockクラスなど、用途に応じて分けつつ相互に連携します。コピペModdingにおいては、コピペ元の分け方に従うのがいいと思います。</font></p>
+
+<p><font color="#65a1eb">③Import<br />
+Minecraft本体やForgeのクラス、自分のMod内の他のクラスを読み込む処理です。読み込むことにより、簡単に言えばそのクラスの処理を利用したりできます。</font></p>
+
+<p><font color="#abff8e">④Modアノテーション<br />
+Coreクラスのみに記述するものです。これがあることでModのクラスとして認識されます。ModのID、バージョンなどの情報を記載できますが必須なものはIDだけです。細かいModの情報はmcmod.infoという別のファイルに記載します。(これに関しては次回以降で述べます)</font></p>
+
+<p><font color="#c588c3">⑤処理書き込み部分(仮称)<br />
+クラス内の、具体的に処理を書き込んでいく部分です。(preInit、init、postInit等のイベントが配置されていきますが、どのイベントを何に使うかは人によって違うこともあります。コピペ元の記述に従うのが無難かと思います。)<br />
+参考:<a><a href="http://hevohevo.hatenablog.com/entry/2014/08/15/185204">http://hevohevo.hatenablog.com/entry/2014/08/15/185204</a></a></font></p>
+
+<p><font color="#ffffb1">⑥参照ライブラリ<br />
+大まかにいえば参照できるクラス群のことです。色々とありますがコピペModdingでよく使うのは一番上のForgeSrc-(バージョン) のみで、ForgeとMinecraftのソースコードを閲覧できます。</font></p>
+
+<p></br>
+<strong>・その他用語など</strong><br />
+ 覚えておくと多少は使えるかな? 程度ですので読み飛ばしていただいても問題ありません。</p>
+
+<p><font color="#d1ffa1">●extend (継承)とimplement<br />
+extendは他のクラスを「継承」し、そのクラスの機能を使えるようにすること、implementはインターフェース(あまり必要ない知識のため割愛)の実装に使います。(Java本体の知識は曖昧な部分もあるため誤りがあった場合は申し訳ありません)<br />
+BlockやEntityなどのクラスは、基礎となるMinecraft本体のクラスを継承している場合が多いです。</font></p>
+
+<p><h2 id="05">5.コピペや参考元に使えるサイト様</h2><br />
+コピーさせていただく元のコードが無ければこの方法は成立しません。次回以降も適宜紹介はしますが、ここで、参考になるコードを公開して下さっているサイトをいくつかご紹介しておきます。</p>
+
+<p><font color="#51aaff"><strong>◆Minecraft Modding Wiki</strong></font><br />
+<a href="http://minecraftjp.info/modding/index.php/Minecraft_Modding_Wiki"><img src="https://pleurotus-eryngii.github.io/images/amarec20161026-232211.png" width="600" class="alignnone size-medium wp-image-363" /></a>
+有志によって運営されている開発者向けのページです。バージョン・用途向けに簡潔なチュートリアルがまとめてあり参照しやすく、種類も豊富です。</p>
+
+<p>&nbsp;
+<font color="#ff4a2a"><strong>◆TNT Modders</strong></font><br />
+<a href="http://www63.atwiki.jp/akasatanahama/"><img src="https://pleurotus-eryngii.github.io/images/amarec20161026-232246.png" width="600"  class="alignnone size-medium wp-image-363" /></a>
+「オファレンMOD」、「星の樹MOD」などの開発者、赤砂蛇凪浜様と、「匠Craft」の開発者Tom Kate様が運営されているWikiです。1.7でのMod製作チュートリアルがあり、実際の実装例もあるため応用が利かせやすくなっています。</p>
+
+<p>&nbsp;
+<font color="#c588c3"><strong>◆Reginn666様のWiki</strong></font><br />
+<a href="http://www4.atwiki.jp/reginn666/"><img src="https://pleurotus-eryngii.github.io/images/amarec20161026-232227.png" width="600"  class="alignnone size-medium wp-image-363" /></a>
+1.7 / 1.3のForgeのModのサンプルや、APIの情報などが記載されています。他サイトではない手法が書かれている場合もあるので、一通り見ておくといいかもしれません。</p>
+
+<p>&nbsp;
+<font color="#5fff90"><strong>◆その他のModのソースコード</strong></font><br />
+フォーラムなどで公開されているModの中には、Github他でソースを公開しているModもあります。実際に動いているコードはかなりいい例になりますので、公開されているModがあればそちらも覗いてみましょう。ただ、ソースのコピペ利用が作者様により制限されている場合もありますので、<strong><font color="#ff667c">事前確認や利用規約の熟読を必ず行い、その規約に従ってください。当サイトでは利用規約を破ったことに関するトラブルには一切責任を負いません。</font>
+</strong><br />
+&nbsp;
+<font color="#00cfa8"><strong>◆Minecraft本体のソースコード</strong></font>
+Minecraft本体も勿論Javaで書かれているので、動いているお手本として参考になる場面は多くあります。
+Forgeで開発していれば、前章で記載した「参照ライブラリ」のforgeSrc-からForge及びMinecraftのソースコードが閲覧可能ですので、バニラの処理と似たことをしたい場合はその部分のソースを見てみましょう。(ただし、一部かなり読みにくい部分もあります。)</p>
+
+<p>&nbsp;
+<font color="#ffab73"><strong>◆海外のMod製作支援サイト</strong></font>
+英語が読めるのならば、調べたい処理内容を英語で検索することで、海外のMod製作情報サイトを見つけることができます。<br />
+日本よりもかなり情報が豊富なので、行き詰ったら機械翻訳などを駆使して見てみてもいいかもしれません。</p>
+
+<p></br>
+&nbsp;
+</br>
+<div id="end" style="border-style:solid; border-width:1px; padding: 15px 5px 5px 15px; border-color:white; background-color:#505050">
+<strong>■今回のまとめ</strong>
+・コピペModdingとは、既存のModのプログラムをコピーしてきて、外見や動作に関わる部分だけ書き換えてModを作る方式のこと。<br />
+・ModdingにはJDK、Eclipseなどの開発環境、ForgeのSrcの準備が必要<br />
+・参考になるサイトはいくつか存在する。<br />
+</div></p>
+
+			</section>
+		</article>
+	</main>
+
+
+	<div id="disqus_thread"></div>
+<script>
+
+
+
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://eryngii-works.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<footer role="contentinfo">
+		<div class="hr"></div>
+		<div class="footer-link">
+			
+			<a href="https://twitter.com/stannum5" target="_blank">Twitter</a>
+			<a href="https://github.com/Pleurotus-eryngii/" target="_blank">GitHub</a>
+			<a href="http://www.pixiv.net/member.php?id=5483364" target="_blank">Pixiv</a>
+		</div>
+		<div class="copyright">Copyright &copy; Eryngii all rights reserved.</div>
+	</footer>
+
+</div>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>
