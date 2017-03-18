@@ -45,6 +45,7 @@ img {
   height: auto;
   vertical-align: middle;
   border: 0;
+  max-width:100%;
 }
 
 header,
