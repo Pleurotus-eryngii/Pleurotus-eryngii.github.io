@@ -105,6 +105,8 @@ main {
   background: linear-gradient(to right, white, #E1E1E1, white);
 }
 
+img.center{padding-left:-25%;}
+
 blockquote{
 background-color:#bde2ff;
 padding:1em 1em 1em 3em;
