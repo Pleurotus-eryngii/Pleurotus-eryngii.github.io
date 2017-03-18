@@ -13,16 +13,19 @@ h1 { font-size: 2.6rem;
 h2 { font-size: 2.3rem;
 	padding-bottom: .5em;
 	border-bottom: 1px solid #ccc;
-	margin-bottom: .5em;}
+	margin-bottom: .5em;
+	margin-top: .7em; }
 h3 { font-size: 2.1rem; 
 	padding-bottom: .35em;
 	border-bottom: 3px double #ccc;
-	margin-bottom: .35em}
+	margin-bottom: .35em
+	margin-top: .7em;}
 h4,
-h5{ font-size: 2.6rem;}
+h5{ font-size: 2.6rem;
+margin: .7em 0em .5em}
 h6{font-size: 2.5rem;
 	position: relative;
-	padding: 0 .5em .5em 1.7em;
+	padding: .7em .5em .5em 1.7em;
 	border-bottom: 1px solid #ccc;
 }
 h6::after {
