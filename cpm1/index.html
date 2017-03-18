@@ -189,27 +189,27 @@ pause
 <p>ただ、記事内で一般的ではない用語を使う場合は説明を付けますので、以下の内容を完全に把握する必要は全くありません。少しずつ慣れていきましょう!</p>
 
 <p>ほとんどコピペで済むとはいっても、コピペしたものを上手く作り替えていく関係で、多少の内容把握は必要になります。下の図に簡単に示してみたので眺めるだけ眺めてみてください。
-<img src="https://pleurotus-eryngii.github.io/images/amarec20161027-2008062.png" width="1000"  class="alignnone size-medium wp-image-385" />
+<img src="https://pleurotus-eryngii.github.io/images/amarec20161027-2008062.png" width="150%"  class="alignnone size-medium wp-image-385" />
 (画像はEclipse、Forge#1558、外観をダーク、フォントをメイリオに変更済みでのものです)</p>
 &nbsp;<br>
 <p><font color="#ff2557">①パッケージ<br />
-Modのソースを格納しておく部分で、クラス数が多い場合などにはcom.example.examplemod.blocksのように、パッケージ内にさらにパッケージを作成して整理することもあります。</font></p>
+Modのソースを格納しておく部分で、クラス数が多い場合などにはcom.example.examplemod.blocksのように、パッケージ内にさらにパッケージを作成して整理することもあります。</font></p>&nbsp;<br>
 &nbsp;<br>
 <p><font color="#ff8f6b">②クラス<br />
-Modのソースコードを書き込んでいくファイルです。基礎的な登録などを行うCoreクラス、ブロック情報を記載するBlockクラスなど、用途に応じて分けつつ相互に連携します。コピペModdingにおいては、コピペ元の分け方に従うのがいいと思います。</font></p>
+Modのソースコードを書き込んでいくファイルです。基礎的な登録などを行うCoreクラス、ブロック情報を記載するBlockクラスなど、用途に応じて分けつつ相互に連携します。コピペModdingにおいては、コピペ元の分け方に従うのがいいと思います。</font></p>&nbsp;<br>
 &nbsp;<br>
 <p><font color="#65a1eb">③Import<br />
-Minecraft本体やForgeのクラス、自分のMod内の他のクラスを読み込む処理です。読み込むことにより、簡単に言えばそのクラスの処理を利用したりできます。</font></p>
+Minecraft本体やForgeのクラス、自分のMod内の他のクラスを読み込む処理です。読み込むことにより、簡単に言えばそのクラスの処理を利用したりできます。</font></p>&nbsp;<br>
 &nbsp;<br>
 <p><font color="#abff8e">④Modアノテーション<br />
-Coreクラスのみに記述するものです。これがあることでModのクラスとして認識されます。ModのID、バージョンなどの情報を記載できますが必須なものはIDだけです。細かいModの情報はmcmod.infoという別のファイルに記載します。(これに関しては次回以降で述べます)</font></p>
+Coreクラスのみに記述するものです。これがあることでModのクラスとして認識されます。ModのID、バージョンなどの情報を記載できますが必須なものはIDだけです。細かいModの情報はmcmod.infoという別のファイルに記載します。(これに関しては次回以降で述べます)</font></p>&nbsp;<br>
 &nbsp;<br>
 <p><font color="#c588c3">⑤処理書き込み部分(仮称)<br />
-クラス内の、具体的に処理を書き込んでいく部分です。(preInit、init、postInit等のイベントが配置されていきますが、どのイベントを何に使うかは人によって違うこともあります。コピペ元の記述に従うのが無難かと思います。)<br />
+クラス内の、具体的に処理を書き込んでいく部分です。(preInit、init、postInit等のイベントが配置されていきますが、どのイベントを何に使うかは人によって違うこともあります。コピペ元の記述に従うのが無難かと思います。)<br />&nbsp;<br>
 参考:<a><a href="http://hevohevo.hatenablog.com/entry/2014/08/15/185204">http://hevohevo.hatenablog.com/entry/2014/08/15/185204</a></a></font></p>
 &nbsp;<br>
 <p><font color="#ffffb1">⑥参照ライブラリ<br />
-大まかにいえば参照できるクラス群のことです。色々とありますがコピペModdingでよく使うのは一番上のForgeSrc-(バージョン) のみで、ForgeとMinecraftのソースコードを閲覧できます。</font></p>
+大まかにいえば参照できるクラス群のことです。色々とありますがコピペModdingでよく使うのは一番上のForgeSrc-(バージョン) のみで、ForgeとMinecraftのソースコードを閲覧できます。</font></p>&nbsp;<br>
 &nbsp;<br>
 <p></br>
 <strong>・その他用語など</strong><br />
